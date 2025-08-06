@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Cat, Simba</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <style>
+    body {
+      background-color: rgb(175, 79, 24);
+    }
+
+    .container {
+      margin-top: 20px;
+    }
+
+    h1 {
+      color: #000000;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #000000;
+        text-align: center;
+    }
+
+    img {
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgb(255, 102, 0);
+      max-width: 100%;
+      height: auto;
+    }
+
+    .col-md-12 {
+      background-color: rgb(206, 127, 54);
+    }
+    .col-md-12 h3 {
+      color: #111111;
+      text-align: left;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .col-md-12 ul {
+      list-style-type: square;
+      padding-left: 20px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color:#000000
+    }
+    .col-md-12 h2 {
+        color: #000000;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .col-md-12 text {
+      font-size: 1.1rem;
+      color: #000000;
+      text-align: justify;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container bg-warning text-dark">
+    <h1>My Second Cat, Simba</h1>
+    <p>This will be about my favorite and second eldest cat, Simba 😻</p>
+  </div>
+
+  <div class="container-fluid border rounded p-4 bg-light text-dark">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>About Simba</h2>
+        <text>Simba is my second cat, he is 1 and a half years old and has a very fluffy coat. He loves to play with his toys and enjoys long naps in the sun.</text>
+      </div>
+
+      <div class="col-md-12 text-center my-3">
+        <div class="row justify-content-center">
+          <div class="col-md-4 col-12 mb-3">
+            <img src="Baba.jpg" alt="Baba">
+          </div>
+          <div class="col-md-4 col-12 mb-3">
+            <img src="c:\Users\hanna\OneDrive\Desktop\After class projects\simba.jph.jpg" alt="Simba">
+          </div>
+          <div class="col-md-4 col-12 mb-3">
+            <img src="Simbaaa.jpg" alt="Simmy">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <h3>Fun Facts</h3>
+        <ul>
+          <li>Simba loves to chase laser pointers.</li>
+          <li>He likes to play with our youngest when he has the time.</li>
+          <li>Simba enjoys watching birds from the window.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
